@@ -10,7 +10,7 @@ import LeftNav from './components/LeftNav'
      }
    }
    setNavBarState(){
-     this.setState({ showNav : window.innerWidth > 760 ? true : false});
+     this.setState({ showNav : window.innerWidth >= 760 ? true : false});
    }
    componentDidMount(){
      this.setNavBarState();
