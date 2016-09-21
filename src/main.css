@@ -5,7 +5,7 @@
 }
 @media(min-width:760px){
   .content-warp{
-    flex.direction:row;
+    flex-direction:row;
   }
 
 }
@@ -86,4 +86,7 @@
 
 .LeftNav a:hover{
   background-color: rgba(0, 0, 0, 0.3);
+}
+.LeftNav span{
+  margin-left: 5px;
 }

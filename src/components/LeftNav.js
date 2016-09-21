@@ -6,10 +6,10 @@ class LeftNav extends React.Component {
     return(
       <div className="LeftNav">
         <h3>asdasd</h3>
-        <Link to='/' activeStyle={{color:'#7C4DFF'}} onlyActiveOnIndex={true}><span className="glyphicon glyphicon-usd">Home</span></Link>
-        <Link to='/blog' activeStyle={{color:'#7C4DFF'}}><span className="glyphicon glyphicon-usd">Blog</span></Link>
-        <Link to='/work' activeStyle={{color:'#7C4DFF'}}><span className="glyphicon glyphicon-usd">Work</span></Link>
-        <Link to='/about' activeStyle={{color:'#7C4DFF'}}><span className="glyphicon glyphicon-usd">About</span></Link>
+        <Link to='/' activeStyle={{color:'#7C4DFF'}} onlyActiveOnIndex={true}><p className="glyphicon glyphicon-usd"></p><span>Home</span></Link>
+        <Link to='/blog' activeStyle={{color:'#7C4DFF'}}><p className="glyphicon glyphicon-usd"></p><span>Blog</span></Link>
+        <Link to='/work' activeStyle={{color:'#7C4DFF'}}><p className="glyphicon glyphicon-usd"></p><span>Work</span></Link>
+        <Link to='/about' activeStyle={{color:'#7C4DFF'}}><p className="glyphicon glyphicon-usd"></p><span>About</span></Link>
       </div>
     )
   }
