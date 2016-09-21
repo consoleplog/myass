@@ -4,5 +4,5 @@ import App from './App.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Routers from './routers'
 import './main.css'
-
+import Test from './Test/Test'
 render(<Routers />,document.getElementById('root'));
