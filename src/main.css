@@ -37,7 +37,7 @@
 .content-main{
   flex-grow: 1;
   overflow-y: scroll;
-  background: teal;
+  display: flex;
 }
 .nav-footer{
   height:80px;
@@ -67,7 +67,7 @@
   flex-direction: column;
   width:40vw;
   height:100vh;
-  background-color: pink;
+  background-color: #00bcd4;
 }
 .LeftNav h3 {
   height:80px;
@@ -89,4 +89,24 @@
 }
 .LeftNav span{
   margin-left: 5px;
+}
+.home-container{
+
+  display: flex;
+  background-image: url('http://odu1wcg68.bkt.clouddn.com/191036419721442.gif');
+  /*background-size: cover;*/
+  background-position: 50% 50%;
+  width: 100%;
+
+}
+.home-over{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+.home-item{
+  color:#fff;
+  text-align: center;
+  margin: 0 auto;
 }
