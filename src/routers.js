@@ -5,6 +5,7 @@ import Home from './Home/Home'
 import Blog from './Blog/Blog';
 import Work from './Work/Work'
 import About from './About/About'
+import Item from './Item/Item'
 
 
  export default class Routers extends Component {
@@ -13,9 +14,10 @@ import About from './About/About'
       <Router history={hashHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Home} />
-          <Route path="/blog" component={About} />
+          <Route path="/blog" component={Blog} />
           <Route path="/work" component={Work} />
           <Route path="/about" component={About} />
+          <Route path="/item/:url" component={Item} />
         </Route>
       </Router>
     );

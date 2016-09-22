@@ -4,8 +4,7 @@ import React from 'react';
     render () {
       return(
         <div>
-            Helo !
-            {this.props.children}
+            about
         </div>
       )
     }
