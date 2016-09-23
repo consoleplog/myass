@@ -93,7 +93,7 @@
 .home-container{
 
   display: flex;
-  background-image: url('http://odu1wcg68.bkt.clouddn.com/191036419721442.gif');
+  background-image: url('http://odu1wcg68.bkt.clouddn.com/bg.jpg');
   /*background-size: cover;*/
   background-position: 50% 50%;
   width: 100%;
@@ -109,4 +109,37 @@
   color:#fff;
   text-align: center;
   margin: 0 auto;
+}
+.work-container{
+    width:100%;
+   display: flex;
+   padding: 10px 20px;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   position: relative;
+
+ }
+ .work-card{
+   width: 96%;
+   margin: 10px auto;
+   border-radius: 5px;
+   position: relative;
+   cursor: pointer;
+   flex-grow: 0;
+ }
+@media(min-width:320px){
+  .work-card{
+       width: 33%;
+
+     }
+   .work-text{
+     position: absolute;
+     bottom:0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+     color:#fff;
+     padding-left: 10px;
+     border-radius: 0px 0px 5px 5px;
+
+   }
 }

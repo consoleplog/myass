@@ -4,5 +4,6 @@ import App from './App.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Routers from './routers'
 import './main.css'
-import Test from './Test/Test'
+import 'highlight.js/styles/github.css';
+import './post.css';
 render(<Routers />,document.getElementById('root'));

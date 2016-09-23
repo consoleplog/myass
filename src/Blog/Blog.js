@@ -1,13 +1,8 @@
 import React from 'react';
 
+import marked from 'marked';
 import { getJson } from '../utils/helpers'
 import Card from '../components/Card'
-let data=[
-   {index:1,title:'如何成为高手',desc:'天天学天天学天天学天天学天天学天天学天天学天天学',url:'a'},
-   {index:2,title:'如何成为高手',desc:'天天学天天学天天学天天学天天学天天学天天学天天学',url:'b'},
-   {index:3,title:'如何成为高手',desc:'天天学天天学天天学天天学天天学天天学天天学天天学',url:'c'},
-   {index:4,title:'如何成为高手',desc:'天天学天天学天天学天天学天天学天天学天天学天天学',url:'d'}
- ]
 
   export default class Blog extends React.Component {
     constructor(){
@@ -29,7 +24,7 @@ let data=[
     render () {
       return(
         <div style={{width:"100%",marginTop:"20px"}}>
-          {this.state.data.map ( (item,i) => <Card {...item} key={i} />)}
+          {this.state.wait ? 'please wait' : this.state.data.map ( (item,i) => <Card {...item} key={i} />)}
         </div>
       )
     }
